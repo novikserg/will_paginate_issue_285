@@ -1,0 +1,8 @@
+<%= will_paginate @urls %>
+
+<h4>Just URL ids here:</h4>
+<ul>
+<% @urls.each do |url| %>
+  <li><%= url.id %></li>
+<% end %>
+</ul>
